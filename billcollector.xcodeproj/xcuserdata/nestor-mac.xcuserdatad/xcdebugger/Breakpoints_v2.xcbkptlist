@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5BCCF563-45D7-466D-B104-AC6C45E692B0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FF871A2-AB40-445C-AD8B-8584FD14D2AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "billcollector/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F59BD11B-09A3-4BED-BB76-AC3E09E1E85D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "billcollector/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "setupView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F59BD11B-09A3-4BED-BB76-AC3E09E1E85D - c2e4a6260a392be1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "billcollector.HomeViewController.setupView() -&gt; ()"
+                  moduleName = "billcollector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nestor-mac/Documents/UIKit/billcollector/billcollector/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "F59BD11B-09A3-4BED-BB76-AC3E09E1E85D - c2e4a6260a392bde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "billcollector.HomeViewController.setupView() -&gt; ()"
+                  moduleName = "billcollector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nestor-mac/Documents/UIKit/billcollector/billcollector/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C7A8D04-DE6E-40A8-A428-8D07DB429DF0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "billcollector/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "buttonPressed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C7A8D04-DE6E-40A8-A428-8D07DB429DF0 - b81b61134a6b6b1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "billcollector.HomeViewController.buttonPressed() -&gt; ()"
+                  moduleName = "billcollector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nestor-mac/Documents/UIKit/billcollector/billcollector/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "6C7A8D04-DE6E-40A8-A428-8D07DB429DF0 - 1fb542c1cf6b42f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in billcollector.HomeViewController.buttonPressed() -&gt; ()"
+                  moduleName = "billcollector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nestor-mac/Documents/UIKit/billcollector/billcollector/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "6C7A8D04-DE6E-40A8-A428-8D07DB429DF0 - b81b61134a6b6bf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "billcollector.HomeViewController.buttonPressed() -&gt; ()"
+                  moduleName = "billcollector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nestor-mac/Documents/UIKit/billcollector/billcollector/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

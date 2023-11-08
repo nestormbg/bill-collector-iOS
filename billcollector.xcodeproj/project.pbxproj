@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6914EA4D2AF1D8D900D87C29 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6914EA4C2AF1D8D900D87C29 /* HistoryTableViewCell.swift */; };
+		6914EA4F2AF209EB00D87C29 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6914EA4E2AF209EB00D87C29 /* AddExpenseViewController.swift */; };
+		6914EA532AF4548900D87C29 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6914EA522AF4548900D87C29 /* UIViewExtension.swift */; };
+		6914EA552AF464D300D87C29 /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6914EA542AF464D300D87C29 /* NavigationExtension.swift */; };
+		691DA5C32AE1A8A90077EBAE /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DA5C22AE1A8A90077EBAE /* ThemeColors.swift */; };
+		691DA5C52AE1BFEC0077EBAE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DA5C42AE1BFEC0077EBAE /* CardView.swift */; };
+		691DA5C82AE1EA2D0077EBAE /* AddExpenseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DA5C72AE1EA2D0077EBAE /* AddExpenseButton.swift */; };
+		691DA5CC2AE36AD80077EBAE /* HistoryTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DA5CB2AE36AD80077EBAE /* HistoryTableView.swift */; };
 		6967AF622AE0E60F00001AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF612AE0E60F00001AAF /* AppDelegate.swift */; };
 		6967AF642AE0E60F00001AAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF632AE0E60F00001AAF /* SceneDelegate.swift */; };
-		6967AF662AE0E60F00001AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF652AE0E60F00001AAF /* ViewController.swift */; };
-		6967AF692AE0E60F00001AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6967AF672AE0E60F00001AAF /* Main.storyboard */; };
+		6967AF662AE0E60F00001AAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF652AE0E60F00001AAF /* HomeViewController.swift */; };
 		6967AF6B2AE0E61000001AAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6967AF6A2AE0E61000001AAF /* Assets.xcassets */; };
 		6967AF6E2AE0E61000001AAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6967AF6C2AE0E61000001AAF /* LaunchScreen.storyboard */; };
 		6967AF792AE0E61000001AAF /* billcollectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF782AE0E61000001AAF /* billcollectorTests.swift */; };
 		6967AF832AE0E61000001AAF /* billcollectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF822AE0E61000001AAF /* billcollectorUITests.swift */; };
 		6967AF852AE0E61000001AAF /* billcollectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF842AE0E61000001AAF /* billcollectorUITestsLaunchTests.swift */; };
+		6967AF922AE0E70400001AAF /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF912AE0E70400001AAF /* HistoryViewController.swift */; };
+		6967AF942AE0E71500001AAF /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF932AE0E71500001AAF /* WorkoutViewController.swift */; };
+		6967AF962AE0E72000001AAF /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF952AE0E72000001AAF /* ExerciseViewController.swift */; };
+		6967AF982AE0E80400001AAF /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF972AE0E80300001AAF /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6914EA4C2AF1D8D900D87C29 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		6914EA4E2AF209EB00D87C29 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		6914EA522AF4548900D87C29 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		6914EA542AF464D300D87C29 /* NavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
+		691DA5C22AE1A8A90077EBAE /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		691DA5C42AE1BFEC0077EBAE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		691DA5C72AE1EA2D0077EBAE /* AddExpenseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseButton.swift; sourceTree = "<group>"; };
+		691DA5CB2AE36AD80077EBAE /* HistoryTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableView.swift; sourceTree = "<group>"; };
 		6967AF5E2AE0E60F00001AAF /* billcollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = billcollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6967AF612AE0E60F00001AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6967AF632AE0E60F00001AAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6967AF652AE0E60F00001AAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6967AF682AE0E60F00001AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6967AF652AE0E60F00001AAF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6967AF6A2AE0E61000001AAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6967AF6D2AE0E61000001AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6967AF6F2AE0E61000001AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +67,10 @@
 		6967AF7E2AE0E61000001AAF /* billcollectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = billcollectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6967AF822AE0E61000001AAF /* billcollectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = billcollectorUITests.swift; sourceTree = "<group>"; };
 		6967AF842AE0E61000001AAF /* billcollectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = billcollectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6967AF912AE0E70400001AAF /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		6967AF932AE0E71500001AAF /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		6967AF952AE0E72000001AAF /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		6967AF972AE0E80300001AAF /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +98,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6914EA502AF4546B00D87C29 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6914EA522AF4548900D87C29 /* UIViewExtension.swift */,
+				6914EA542AF464D300D87C29 /* NavigationExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		691DA5C12AE1A8810077EBAE /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				691DA5C22AE1A8A90077EBAE /* ThemeColors.swift */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		691DA5C62AE1BFF60077EBAE /* components */ = {
+			isa = PBXGroup;
+			children = (
+				691DA5C42AE1BFEC0077EBAE /* CardView.swift */,
+				691DA5C72AE1EA2D0077EBAE /* AddExpenseButton.swift */,
+				691DA5CB2AE36AD80077EBAE /* HistoryTableView.swift */,
+				6914EA4C2AF1D8D900D87C29 /* HistoryTableViewCell.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		6967AF552AE0E60F00001AAF = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +149,12 @@
 		6967AF602AE0E60F00001AAF /* billcollector */ = {
 			isa = PBXGroup;
 			children = (
+				6914EA502AF4546B00D87C29 /* extensions */,
+				69B1118E2AE385B3000A8494 /* controllers */,
+				691DA5C62AE1BFF60077EBAE /* components */,
+				691DA5C12AE1A8810077EBAE /* theme */,
 				6967AF612AE0E60F00001AAF /* AppDelegate.swift */,
 				6967AF632AE0E60F00001AAF /* SceneDelegate.swift */,
-				6967AF652AE0E60F00001AAF /* ViewController.swift */,
-				6967AF672AE0E60F00001AAF /* Main.storyboard */,
 				6967AF6A2AE0E61000001AAF /* Assets.xcassets */,
 				6967AF6C2AE0E61000001AAF /* LaunchScreen.storyboard */,
 				6967AF6F2AE0E61000001AAF /* Info.plist */,
@@ -125,6 +177,19 @@
 				6967AF842AE0E61000001AAF /* billcollectorUITestsLaunchTests.swift */,
 			);
 			path = billcollectorUITests;
+			sourceTree = "<group>";
+		};
+		69B1118E2AE385B3000A8494 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6967AF652AE0E60F00001AAF /* HomeViewController.swift */,
+				6967AF972AE0E80300001AAF /* TabViewController.swift */,
+				6967AF912AE0E70400001AAF /* HistoryViewController.swift */,
+				6967AF932AE0E71500001AAF /* WorkoutViewController.swift */,
+				6967AF952AE0E72000001AAF /* ExerciseViewController.swift */,
+				6914EA4E2AF209EB00D87C29 /* AddExpenseViewController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +298,6 @@
 			files = (
 				6967AF6E2AE0E61000001AAF /* LaunchScreen.storyboard in Resources */,
 				6967AF6B2AE0E61000001AAF /* Assets.xcassets in Resources */,
-				6967AF692AE0E60F00001AAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +322,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6967AF662AE0E60F00001AAF /* ViewController.swift in Sources */,
+				691DA5C82AE1EA2D0077EBAE /* AddExpenseButton.swift in Sources */,
+				6967AF662AE0E60F00001AAF /* HomeViewController.swift in Sources */,
+				6914EA552AF464D300D87C29 /* NavigationExtension.swift in Sources */,
+				691DA5C52AE1BFEC0077EBAE /* CardView.swift in Sources */,
+				6914EA4F2AF209EB00D87C29 /* AddExpenseViewController.swift in Sources */,
+				6914EA532AF4548900D87C29 /* UIViewExtension.swift in Sources */,
+				691DA5C32AE1A8A90077EBAE /* ThemeColors.swift in Sources */,
 				6967AF622AE0E60F00001AAF /* AppDelegate.swift in Sources */,
+				6967AF942AE0E71500001AAF /* WorkoutViewController.swift in Sources */,
 				6967AF642AE0E60F00001AAF /* SceneDelegate.swift in Sources */,
+				6967AF962AE0E72000001AAF /* ExerciseViewController.swift in Sources */,
+				691DA5CC2AE36AD80077EBAE /* HistoryTableView.swift in Sources */,
+				6914EA4D2AF1D8D900D87C29 /* HistoryTableViewCell.swift in Sources */,
+				6967AF982AE0E80400001AAF /* TabViewController.swift in Sources */,
+				6967AF922AE0E70400001AAF /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6967AF672AE0E60F00001AAF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6967AF682AE0E60F00001AAF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6967AF6C2AE0E61000001AAF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,9 +509,8 @@
 				INFOPLIST_FILE = billcollector/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,9 +535,8 @@
 				INFOPLIST_FILE = billcollector/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

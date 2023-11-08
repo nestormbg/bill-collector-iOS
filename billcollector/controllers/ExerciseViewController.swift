@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ExerciseViewController.swift
 //  billcollector
 //
 //  Created by Néstor Miguel Benitez Garay on 2023-10-19.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ExerciseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = AppTheme.screenBackgroundColor
+        
     }
 
-
 }
-
