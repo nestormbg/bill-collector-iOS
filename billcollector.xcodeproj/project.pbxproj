@@ -15,6 +15,7 @@
 		691DA5C52AE1BFEC0077EBAE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DA5C42AE1BFEC0077EBAE /* CardView.swift */; };
 		691DA5C82AE1EA2D0077EBAE /* AddExpenseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DA5C72AE1EA2D0077EBAE /* AddExpenseButton.swift */; };
 		691DA5CC2AE36AD80077EBAE /* HistoryTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DA5CB2AE36AD80077EBAE /* HistoryTableView.swift */; };
+		6925CCEA2B0B05BF00E5CD80 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6925CCE92B0B05BF00E5CD80 /* ChartsViewController.swift */; };
 		6967AF622AE0E60F00001AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF612AE0E60F00001AAF /* AppDelegate.swift */; };
 		6967AF642AE0E60F00001AAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF632AE0E60F00001AAF /* SceneDelegate.swift */; };
 		6967AF662AE0E60F00001AAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF652AE0E60F00001AAF /* HomeViewController.swift */; };
@@ -24,8 +25,6 @@
 		6967AF832AE0E61000001AAF /* billcollectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF822AE0E61000001AAF /* billcollectorUITests.swift */; };
 		6967AF852AE0E61000001AAF /* billcollectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF842AE0E61000001AAF /* billcollectorUITestsLaunchTests.swift */; };
 		6967AF922AE0E70400001AAF /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF912AE0E70400001AAF /* HistoryViewController.swift */; };
-		6967AF942AE0E71500001AAF /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF932AE0E71500001AAF /* WorkoutViewController.swift */; };
-		6967AF962AE0E72000001AAF /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF952AE0E72000001AAF /* ExerciseViewController.swift */; };
 		6967AF982AE0E80400001AAF /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967AF972AE0E80300001AAF /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +54,7 @@
 		691DA5C42AE1BFEC0077EBAE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		691DA5C72AE1EA2D0077EBAE /* AddExpenseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseButton.swift; sourceTree = "<group>"; };
 		691DA5CB2AE36AD80077EBAE /* HistoryTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableView.swift; sourceTree = "<group>"; };
+		6925CCE92B0B05BF00E5CD80 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		6967AF5E2AE0E60F00001AAF /* billcollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = billcollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6967AF612AE0E60F00001AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6967AF632AE0E60F00001AAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,8 +68,6 @@
 		6967AF822AE0E61000001AAF /* billcollectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = billcollectorUITests.swift; sourceTree = "<group>"; };
 		6967AF842AE0E61000001AAF /* billcollectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = billcollectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6967AF912AE0E70400001AAF /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
-		6967AF932AE0E71500001AAF /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
-		6967AF952AE0E72000001AAF /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 		6967AF972AE0E80300001AAF /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,9 +183,8 @@
 				6967AF652AE0E60F00001AAF /* HomeViewController.swift */,
 				6967AF972AE0E80300001AAF /* TabViewController.swift */,
 				6967AF912AE0E70400001AAF /* HistoryViewController.swift */,
-				6967AF932AE0E71500001AAF /* WorkoutViewController.swift */,
-				6967AF952AE0E72000001AAF /* ExerciseViewController.swift */,
 				6914EA4E2AF209EB00D87C29 /* AddExpenseViewController.swift */,
+				6925CCE92B0B05BF00E5CD80 /* ChartsViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -323,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				691DA5C82AE1EA2D0077EBAE /* AddExpenseButton.swift in Sources */,
+				6925CCEA2B0B05BF00E5CD80 /* ChartsViewController.swift in Sources */,
 				6967AF662AE0E60F00001AAF /* HomeViewController.swift in Sources */,
 				6914EA552AF464D300D87C29 /* NavigationExtension.swift in Sources */,
 				691DA5C52AE1BFEC0077EBAE /* CardView.swift in Sources */,
@@ -330,9 +328,7 @@
 				6914EA532AF4548900D87C29 /* UIViewExtension.swift in Sources */,
 				691DA5C32AE1A8A90077EBAE /* ThemeColors.swift in Sources */,
 				6967AF622AE0E60F00001AAF /* AppDelegate.swift in Sources */,
-				6967AF942AE0E71500001AAF /* WorkoutViewController.swift in Sources */,
 				6967AF642AE0E60F00001AAF /* SceneDelegate.swift in Sources */,
-				6967AF962AE0E72000001AAF /* ExerciseViewController.swift in Sources */,
 				691DA5CC2AE36AD80077EBAE /* HistoryTableView.swift in Sources */,
 				6914EA4D2AF1D8D900D87C29 /* HistoryTableViewCell.swift in Sources */,
 				6967AF982AE0E80400001AAF /* TabViewController.swift in Sources */,

@@ -77,7 +77,7 @@ class HomeViewController: UIViewController {
     private func buttonPressed() {
         addExpenseButton.buttonPressedCallBack = { [weak self] in
             let vc = AddExpenseViewController()
-            self?.navigationController?.pushViewController(vc, animated: true)
+            self?.navigationController?.pushViewController(vc, animated: false)
         }
     }
 

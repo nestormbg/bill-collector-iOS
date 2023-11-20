@@ -18,7 +18,7 @@ class TabViewController: UITabBarController {
     private func setupTabs() {
         let home = self.createNav(with: "Home", and: UIImage(named: "home"), vc: HomeViewController())
         let workout = self.createNav(with: "Calendar", and: UIImage(named: "calendar"), vc: HistoryViewController())
-        let exercise = self.createNav(with: "Charts", and: UIImage(named: "chart_pie"), vc: ExerciseViewController())
+        let exercise = self.createNav(with: "Charts", and: UIImage(named: "chart_pie"), vc: ChartsViewController())
         
         self.setViewControllers([home, workout, exercise], animated: true)
     }
